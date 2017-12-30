@@ -16,13 +16,19 @@ Here's a list of modules bundled with the game by default (this line-up will cha
 
 *Note about "Tutorial" modules:* These are more likely for some time to be for developers/modders to learn about different kinds of content and systems, not for players to actually learn stuff in-game. That's usually handled by actual content modules including their own in-game help system.
 
+* [AdditionalFruits](https://github.com/Terasology/AdditionalFruits) - container module for more fruits
+* [AdditionalRails](https://github.com/Terasology/AdditionalRails) - container module for more rails
+* [AdditionalVegetables](https://github.com/Terasology/AdditionalVegetables) - container module for more vegetables
+* [AdditionalWorlds](https://github.com/Terasology/AdditionalWorlds) - container module for more worlds
 * [AdvancedBehaviors](https://github.com/Terasology/AdvancedBehaviors) - adds behavior trees and logic for NPCs!
 * [AdventureAssets](https://github.com/Terasology/AdventureAssets) - a set of assets for adventure time!
 * [Alchemy](https://github.com/Terasology/Alchemy) - create alchemical potions!
+* [AlchemyPlantGenerator](https://github.com/Terasology/AlchemyPlantGenerator) - a world plugin that'll seed the plants used by Alchemy into a given plugin-capable world
 * [AlterationEffects](https://github.com/Terasology/AlterationEffects) - module for storing some buff/debuff type effects
 * [Anatomy](https://github.com/Terasology/Anatomy) - an anatomical system meant to provide an alternative to typical HP only systems
 * [AnotherWorld](https://github.com/Terasology/AnotherWorld) - world gen module, includes features like ore placement and caves, used by WoodAndStone's world
 * [AnotherWorldPlants](https://github.com/Terasology/AnotherWorldPlants) - farming and tree growth for AnotherWorld
+* [BasicCrafting](https://github.com/Terasology/BasicCrafting) - a basic crafting system
 * [BlockDetector](https://github.com/Terasology/BlockDetector) - adds a simple little tool that can detect specific blocks (beeping in proximity)
 * [BlockNetwork](https://github.com/Terasology/BlockNetwork) - a framework to support blocks that can communicate with each other in some fashion
 * [BlockPicker](https://github.com/Terasology/BlockPicker) - allows the player access to an infinite block inventory with the `B` key
@@ -39,6 +45,7 @@ Here's a list of modules bundled with the game by default (this line-up will cha
 * [ClimateConditions](https://github.com/Terasology/ClimateConditions) - A library module for managing temperature, humidity, and other climate factors
 * [CombatSystem](https://github.com/Terasology/CombatSystem) - an advanced physics-based combat system
 * [CommonWorld](https://github.com/Terasology/CommonWorld) - general world generation utility module
+* [Compass](https://github.com/Terasology/Compass) - a simple compass
 * [ComputerMonitors](https://github.com/Terasology/ComputerMonitors) - allows for the creation of functional multi-block monitors in-game - ModularComputers puts them to work!
 * [Cooking](https://github.com/Terasology/Cooking) - cook stuff!
 * [CopperAndBronze](https://github.com/Terasology/CopperAndBronze) - another era for throughout the ages, this time copper and bronze (comes after wood and stone)
@@ -82,10 +89,12 @@ Here's a list of modules bundled with the game by default (this line-up will cha
 * [Maze](https://github.com/Terasology/Maze) - a maze generator. Right-click with the provided maze tool on one block then again on another and a maze will generate between the two points (in multiple layers if the area is tall enough)
 * [MedievalCities](https://github.com/Terasology/MedievalCities) - a set of building templates for a medieval era city
 * [Minerals](https://github.com/Terasology/Minerals) - a large collection of mineral blocks
+* [Minesweeper](https://github.com/Terasology/Minesweeper) - a little game inside a game
 * [Miniion](https://github.com/Terasology/Miniion) - base creature control system, used by MasterOfOreon - old module that has gone through a few redesigns
 * [Minimap](https://github.com/Terasology/Minimap) - a basic minimap. Show/hide with `M` by default and zoom with numpad `-` and `+`
 * [MobileBlocks](https://github.com/Terasology/MobileBlocks) - supports blocks that can move their location based on some directions
 * [ModularComputers](https://github.com/Terasology/ModularComputers) - central module for the creation of computers that themselves can have "hardware modules" of sorts added to them in-game to add interesting functionality
+* [ModuleTestingEnvironment](https://github.com/Terasology/ModuleTestingEnvironment) - a testing framework for in-game tests on simulated server + client(s)
 * [MoreLights](https://github.com/Terasology/MoreLights) - assorted illuminated blocks
 * [MultiBlock](https://github.com/Terasology/MultiBlock) - supports the concept of multiple blocks being part of the same structure
 * [MusicDirector](https://github.com/Terasology/MusicDirector) - allows music assets to be prepared for dynamic inclusion in appropriate contexts (like time of day)

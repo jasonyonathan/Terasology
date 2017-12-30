@@ -70,27 +70,6 @@ import static org.terasology.rendering.primitives.ChunkMesh.RenderPhase.REFRACTI
  */
 public class RefractiveReflectiveBlocksNode extends AbstractNode implements PropertyChangeListener {
     public static final SimpleUri REFRACTIVE_REFLECTIVE_FBO_URI = new SimpleUri("engine:fbo.sceneReflectiveRefractive");
-    private static final ResourceUrn CHUNK_MATERIAL_URN = new ResourceUrn("engine:prog.chunk");
-
-    private RenderQueuesHelper renderQueues;
-    private WorldRenderer worldRenderer;
-    private BackdropProvider backdropProvider;
-    private RenderingConfig renderingConfig;
-    private WorldProvider worldProvider;
-
-    private Material chunkMaterial;
-
-    private FBO lastUpdatedGBuffer;
-    private FBO refractiveReflectiveFbo;
-
-    private SubmersibleCamera activeCamera;
-
-    private boolean normalMappingIsEnabled;
-    private boolean parallaxMappingIsEnabled;
-    private boolean animatedWaterIsEnabled;
-
-    private StateChange setTerrainNormalsInputTexture;
-    private StateChange setTerrainHeightInputTexture;
 
     // TODO: rename to more meaningful/precise variable names, like waveAmplitude or waveHeight.
     @SuppressWarnings("FieldCanBeLocal")
@@ -114,6 +93,28 @@ public class RefractiveReflectiveBlocksNode extends AbstractNode implements Prop
     @SuppressWarnings("FieldCanBeLocal")
     @Range(min = 0.0f, max = 5.0f)
     public static float waterOffsetY;
+
+    private static final ResourceUrn CHUNK_MATERIAL_URN = new ResourceUrn("engine:prog.chunk");
+    
+    private RenderQueuesHelper renderQueues;
+    private WorldRenderer worldRenderer;
+    private BackdropProvider backdropProvider;
+    private RenderingConfig renderingConfig;
+    private WorldProvider worldProvider;
+
+    private Material chunkMaterial;
+
+    private FBO lastUpdatedGBuffer;
+    private FBO refractiveReflectiveFbo;
+
+    private SubmersibleCamera activeCamera;
+
+    private boolean normalMappingIsEnabled;
+    private boolean parallaxMappingIsEnabled;
+    private boolean animatedWaterIsEnabled;
+
+    private StateChange setTerrainNormalsInputTexture;
+    private StateChange setTerrainHeightInputTexture;
 
     @SuppressWarnings("FieldCanBeLocal")
     @Range(min = 0.0f, max = 2.0f)

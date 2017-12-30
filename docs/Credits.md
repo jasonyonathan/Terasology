@@ -207,7 +207,11 @@ Contributors
  [Dane99](https://github.com/Dane99),
  [Derpthemeus](https://github.com/Derpthemeus),
  [Aaron Harris](https://github.com/aaron-harris),
- [floppypanda](https://github.com/floppypanda)
+ [floppypanda](https://github.com/floppypanda),
+ [Naman-sopho](https://github.com/Naman-sopho),
+ [NicholasBatesNZ](https://github.com/NicholasBatesNZ),
+ [digitalripperynr](https://github.com/digitalripperynr),
+ [FieryPhoenix909](https://github.com/FieryPhoenix909)
 * GUI Team:
  [Anton "small-jeeper" Kireev](https://github.com/small-jeeper),
  [miniME89](https://github.com/miniME89),

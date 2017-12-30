@@ -1,5 +1,5 @@
 /*
- * Copyright 2013 MovingBlocks
+ * Copyright 2017 MovingBlocks
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,34 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
-package org.terasology.engine.modes.loadProcesses;
+package org.terasology.context.internal;
 
 import org.terasology.context.Context;
-import org.terasology.logic.console.Console;
-import org.terasology.logic.console.ConsoleImpl;
 
-public class InitialiseCommandSystem extends SingleStepLoadProcess {
-
-    private Context context;
-
-    public InitialiseCommandSystem(Context context) {
-        this.context = context;
+public class MockContext implements Context {
+    @Override
+    public <T> T get(Class<? extends T> type) {
+        return null;
     }
 
     @Override
-    public String getMessage() {
-        return "Initialising Command System...";
-    }
-
-    @Override
-    public boolean step() {
-        context.put(Console.class, new ConsoleImpl(context));
-        return true;
-    }
-
-    @Override
-    public int getExpectedCost() {
-        return 1;
+    public <T, U extends T> void put(Class<T> type, U object)  {
     }
 }
